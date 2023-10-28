@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+* {
+  font-family: 'Tilt Neon', sans-serif;
+}
+body {
+  background-image: url(Imagen/Fondo.jpg);
+ position: center;
+}
+.calculator{
+    display:block;
+    margin: 50px auto;
+    padding: 20px;
+    background-color:#5b29b9;
+    width:350px;
+    height:500px;
+    border-radius: 25px;
+    position: center;
+    transition: all 1000ms;
+  }
+  .calculator td button{
+    display:block;
+    width:70px;
+    height: 70px;
+    font-size: 25px;
+  }
+
+  
+  #result{
+    display:block;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 50px;
+    width:300px;
+    height: 100px;
+    line-height: 100px;
+    background-color:#fff;
+    border-radius: 25px;
+    overflow-y: scroll;
+  }
+
+  
+  .calculator:hover{
+  background-color: rgb(208, 127, 255);
+  transition: all 700ms;
+
+    }
+
+    #one, #two, #tree, #four, #five, #six, #seven, #eight, #nine, #zero{
+        background-color: blanchedalmond;
+        transition: all 700ms;
+    }
+
+    #division, #multiplicacion, #subtraction,#sum{
+        background-color: rgb(81, 209, 231);
+        transition: all 700ms; 
+    }
+
+    #reset{
+        background-color: cadetblue;
+    }
+    
+    #egual{
+        background-color: rgb(190, 38, 228);
+    }
